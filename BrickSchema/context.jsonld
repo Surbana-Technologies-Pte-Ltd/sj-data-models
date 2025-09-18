@@ -99,7 +99,6 @@
     "topDataProperty": "http://www.w3.org/2002/07/owl#topDataProperty",
     "topObjectProperty": "http://www.w3.org/2002/07/owl#topObjectProperty",
 
-    "system": "https://uri.surbanajurong.com/ngsi-ld/v1/system",
     "pmEnergyConsumption": "https://uri.surbanajurong.com/ngsi-ld/v1/pmEnergyConsumption",
     "variableSpeedDriveControl": "https://uri.surbanajurong.com/ngsi-ld/v1/variableSpeedDriveControl",
     "variableSpeedDriveFeedback": "https://uri.surbanajurong.com/ngsi-ld/v1/variableSpeedDriveFeedback"
