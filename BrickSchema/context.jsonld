@@ -16,8 +16,14 @@
     "Sensor": "https://brickschema.org/schema/Brick#Sensor",
     "AirQualitySensor": "https://brickschema.org/schema/Brick#Air_Quality_Sensor",
     "AmmoniaSensor": "https://brickschema.org/schema/Brick#Ammonia_Sensor",
-    "feeds": "https://brickschema.org/schema/Brick#feeds",
-    "hasPart": "https://brickschema.org/schema/Brick#hasPart",
+    "feeds": {
+      "@id": "https://brickschema.org/schema/Brick#feeds",
+      "@type": "@id"
+    },
+    "hasPart": {
+      "@id": "https://brickschema.org/schema/Brick#hasPart",
+      "@type": "@id"
+    },
     "azimuth": "https://brickschema.org/schema/Brick#azimuth",
     "conversionEfficiency": "https://brickschema.org/schema/Brick#conversionEfficiency",
     "coordinates": "https://brickschema.org/schema/Brick#coordinates",
@@ -26,12 +32,30 @@
     "electricalFlow": "https://brickschema.org/schema/Brick#electricalFlow",
     "electricalPhaseCount": "https://brickschema.org/schema/Brick#electricalPhaseCount",
     "electricalPhases": "https://brickschema.org/schema/Brick#electricalPhases",
-    "hasInputSubstance": "https://brickschema.org/schema/Brick#hasInputSubstance",
-    "hasLocation": "https://brickschema.org/schema/Brick#hasLocation",
-    "hasOutputSubstance": "https://brickschema.org/schema/Brick#hasOutputSubstance",
-    "hasPoint": "https://brickschema.org/schema/Brick#hasPoint",
-    "isMeteredBy": "https://brickschema.org/schema/Brick#isMeteredBy",
-    "isPartOf": "https://brickschema.org/schema/Brick#isPartOf",
+    "hasInputSubstance": {
+      "@id": "https://brickschema.org/schema/Brick#hasInputSubstance",
+      "@type": "@id"
+    },
+    "hasLocation": {
+      "@id": "https://brickschema.org/schema/Brick#hasLocation",
+      "@type": "@id"
+    },
+    "hasOutputSubstance": {
+      "@id": "https://brickschema.org/schema/Brick#hasOutputSubstance",
+      "@type": "@id"
+    },
+    "hasPoint": {
+      "@id": "https://brickschema.org/schema/Brick#hasPoint",
+      "@type": "@id"
+    },
+    "isMeteredBy": {
+      "@id": "https://brickschema.org/schema/Brick#isMeteredBy",
+      "@type": "@id"
+    },
+    "isPartOf": {
+      "@id": "https://brickschema.org/schema/Brick#isPartOf",
+      "@type": "@id"
+    },
     "measuredPowerInput": "https://brickschema.org/schema/Brick#measuredPowerInput",
     "measuredPowerOutput": "https://brickschema.org/schema/Brick#measuredPowerOutput",
     "operationalStage": "https://brickschema.org/schema/Brick#operationalStage",
@@ -54,63 +78,153 @@
     "temperatureCoefficientofPmax": "https://brickschema.org/schema/Brick#temperatureCoefficientofPmax",
     "tilt": "https://brickschema.org/schema/Brick#tilt",
     "volume": "https://brickschema.org/schema/Brick#volume",
-    "aliasOf": "https://brickschema.org/schema/Brick#aliasOf",
+    "aliasOf": {
+      "@id": "https://brickschema.org/schema/Brick#aliasOf",
+      "@type": "@id"
+    },
     "deprecation": "https://brickschema.org/schema/Brick#deprecation",
-    "isReplacedBy": "https://brickschema.org/schema/Brick#isReplacedBy",
+    "isReplacedBy": {
+      "@id": "https://brickschema.org/schema/Brick#isReplacedBy",
+      "@type": "@id"
+    },
     "latitude": "https://brickschema.org/schema/Brick#latitude",
     "longitude": "https://brickschema.org/schema/Brick#longitude",
     "timestamp": "https://brickschema.org/schema/Brick#timestamp",
-    "lastKnownValue": "https://brickschema.org/schema/Brick#lastKnownValue",
+    "lastKnownValue": {
+      "@id": "https://brickschema.org/schema/Brick#lastKnownValue",
+      "@type": "@id"
+    },
     "aggregate": "https://brickschema.org/schema/Brick#aggregate",
-    "hasQuantity": "https://brickschema.org/schema/Brick#hasQuantity",
-    "hasSubstance": "https://brickschema.org/schema/Brick#hasSubstance",
-    "hasUnit": "https://brickschema.org/schema/Brick#hasUnit",
-    "isPointOf": "https://brickschema.org/schema/Brick#isPointOf",
+    "hasQuantity": {
+      "@id": "https://brickschema.org/schema/Brick#hasQuantity",
+      "@type": "@id"
+    },
+    "hasSubstance": {
+      "@id": "https://brickschema.org/schema/Brick#hasSubstance",
+      "@type": "@id"
+    },
+    "hasUnit": {
+      "@id": "https://brickschema.org/schema/Brick#hasUnit",
+      "@type": "@id"
+    },
+    "isPointOf": {
+      "@id": "https://brickschema.org/schema/Brick#isPointOf",
+      "@type": "@id"
+    },
     "resolution": "https://brickschema.org/schema/Brick#resolution",
 
     "Asset": "https://w3id.org/rec#Asset",
-    "isFedBy": "https://w3id.org/rec#isFedBy",
+    "isFedBy": {
+      "@id": "https://w3id.org/rec#isFedBy",
+      "@type": "@id"
+    },
     "assetTag": "https://w3id.org/rec#assetTag",
-    "commissionedBy": "https://w3id.org/rec#commissionedBy",
+    "commissionedBy": {
+      "@id": "https://w3id.org/rec#commissionedBy",
+      "@type": "@id"
+    },
     "commissioningDate": "https://w3id.org/rec#commissioningDate",
-    "documentation": "https://w3id.org/rec#documentation",
-    "geometry": "https://w3id.org/rec#geometry",
+    "documentation": {
+      "@id": "https://w3id.org/rec#documentation",
+      "@type": "@id"
+    },
+    "geometry": {
+      "@id": "https://w3id.org/rec#geometry",
+      "@type": "@id"
+    },
     "initialCost": "https://w3id.org/rec#initialCost",
     "installationDate": "https://w3id.org/rec#installationDate",
-    "installedBy": "https://w3id.org/rec#installedBy",
+    "installedBy": {
+      "@id": "https://w3id.org/rec#installedBy",
+      "@type": "@id"
+    },
     "IPAddress": "https://w3id.org/rec#IPAddress",
-    "locatedIn": "https://w3id.org/rec#locatedIn",
-    "MACAddress": "https://w3id.org/rec#MACAddress",
+    "locatedIn": {
+      "@id": "https://w3id.org/rec#locatedIn",
+      "@type": "@id"
+    },
+    "macAddress": "https://w3id.org/rec#MACAddress",
     "maintenanceInterval": "https://w3id.org/rec#maintenanceInterval",
-    "manufacturedBy": "https://w3id.org/rec#manufacturedBy",
+    "manufacturedBy": {
+      "@id": "https://w3id.org/rec#manufacturedBy",
+      "@type": "@id"
+    },
     "modelNumber": "https://w3id.org/rec#modelNumber",
-    "mountedOn": "https://w3id.org/rec#mountedOn",
+    "mountedOn": {
+      "@id": "https://w3id.org/rec#mountedOn",
+      "@type": "@id"
+    },
     "serialNumber": "https://w3id.org/rec#serialNumber",
-    "servicedBy": "https://w3id.org/rec#servicedBy",
+    "servicedBy": {
+      "@id": "https://w3id.org/rec#servicedBy",
+      "@type": "@id"
+    },
     "turnoverDate": "https://w3id.org/rec#turnoverDate",
     "weight": "https://w3id.org/rec#weight",
 
-    "a": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+    "a": {
+      "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "@type": "@id"
+    },
     "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
 
     "comment": "http://www.w3.org/2000/01/rdf-schema#comment",
-    "isDefinedBy": "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+    "isDefinedBy": {
+      "@id": "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+      "@type": "@id"
+    },
     "label": "http://www.w3.org/2000/01/rdf-schema#label",
-    "member": "http://www.w3.org/2000/01/rdf-schema#member",
-    "seeAlso": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+    "member": {
+      "@id": "http://www.w3.org/2000/01/rdf-schema#member",
+      "@type": "@id"
+    },
+    "seeAlso": {
+      "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+      "@type": "@id"
+    },
 
-    "annotatedProperty": "http://www.w3.org/2002/07/owl#annotatedProperty",
-    "annotatedSource": "http://www.w3.org/2002/07/owl#annotatedSource",
-    "annotatedTarget": "http://www.w3.org/2002/07/owl#annotatedTarget",
-    "deprecated": "http://www.w3.org/2002/07/owl#deprecated",
-    "members": "http://www.w3.org/2002/07/owl#members",
-    "versionInfo": "http://www.w3.org/2002/07/owl#versionInfo",
+    "annotatedProperty": {
+      "@id": "http://www.w3.org/2002/07/owl#annotatedProperty",
+      "@type": "@id"
+    },
+    "annotatedSource": {
+      "@id": "http://www.w3.org/2002/07/owl#annotatedSource",
+      "@type": "@id"
+    },
+    "annotatedTarget": {
+      "@id": "http://www.w3.org/2002/07/owl#annotatedTarget",
+      "@type": "@id"
+    },
+    "deprecated": {
+      "@id": "http://www.w3.org/2002/07/owl#deprecated",
+      "@type": "@id"
+    },
+    "members": {
+      "@id": "http://www.w3.org/2002/07/owl#members",
+      "@type": "@id"
+    },
+    "versionInfo": {
+      "@id": "http://www.w3.org/2002/07/owl#versionInfo",
+      "@type": "@id"
+    },
     "bottomDataProperty": "http://www.w3.org/2002/07/owl#bottomDataProperty",
-    "bottomObjectProperty": "http://www.w3.org/2002/07/owl#bottomObjectProperty",
-    "differentFrom": "http://www.w3.org/2002/07/owl#differentFrom",
-    "sameAs": "http://www.w3.org/2002/07/owl#sameAs",
+    "bottomObjectProperty": {
+      "@id": "http://www.w3.org/2002/07/owl#bottomObjectProperty",
+      "@type": "@id"
+    },
+    "differentFrom": {
+      "@id": "http://www.w3.org/2002/07/owl#differentFrom",
+      "@type": "@id"
+    },
+    "sameAs": {
+      "@id": "http://www.w3.org/2002/07/owl#sameAs",
+      "@type": "@id"
+    },
     "topDataProperty": "http://www.w3.org/2002/07/owl#topDataProperty",
-    "topObjectProperty": "http://www.w3.org/2002/07/owl#topObjectProperty",
+    "topObjectProperty": {
+      "@id": "http://www.w3.org/2002/07/owl#topObjectProperty",
+      "@type": "@id"
+    },
 
     "ChillerGreenmark": "https://uri.surbanajurong.com/ngsi-ld/v1/ChillerGreenmark",
     "ChillerHeader": "https://uri.surbanajurong.com/ngsi-ld/v1/ChillerHeader",
