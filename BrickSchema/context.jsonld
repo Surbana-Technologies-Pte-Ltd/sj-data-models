@@ -286,6 +286,7 @@
     "dataloggerChilledWaterHeaderFlowRate": "https://uri.surbanajurong.com/ngsi-ld/v1/dataloggerChilledWaterHeaderFlowRate",
     "dataloggerCondenserWaterSupplyTemperature": "https://uri.surbanajurong.com/ngsi-ld/v1/dataloggerCondenserWaterSupplyTemperature",
     "dataloggerCondenserWaterReturnTemperature": "https://uri.surbanajurong.com/ngsi-ld/v1/dataloggerCondenserWaterReturnTemperature",
-    "dataloggerCondenserWaterHeaderFlowRate": "https://uri.surbanajurong.com/ngsi-ld/v1/dataloggerCondenserWaterHeaderFlowRate"
+    "dataloggerCondenserWaterHeaderFlowRate": "https://uri.surbanajurong.com/ngsi-ld/v1/dataloggerCondenserWaterHeaderFlowRate",
+    "connectivity": "https://uri.surbanajurong.com/ngsi-ld/v1/connectivity"
   }
 }
