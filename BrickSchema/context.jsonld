@@ -14,6 +14,7 @@
     "ExhaustFan": "https://brickschema.org/schema/Brick#Exhaust_Fan",
     "AirHandlingUnit": "https://brickschema.org/schema/Brick#Air_Handling_Unit",
     "PreCoolingAirUnit": "https://brickschema.org/schema/Brick#Pre-Cooling_Air_Unit",
+    "Chiller": "https://brickschema.org/schema/Brick#Chiller",
     "Point": "https://brickschema.org/schema/Brick#Point",
     "Sensor": "https://brickschema.org/schema/Brick#Sensor",
     "AirQualitySensor": "https://brickschema.org/schema/Brick#Air_Quality_Sensor",
@@ -229,7 +230,6 @@
     },
 
     "ChillerGreenmark": "https://uri.surbanajurong.com/ngsi-ld/v1/ChillerGreenmark",
-    "ChillerHeader": "https://uri.surbanajurong.com/ngsi-ld/v1/ChillerHeader",
     "pmPowerConsumption": "https://uri.surbanajurong.com/ngsi-ld/v1/pmPowerConsumption",
     "pmEnergyConsumption": "https://uri.surbanajurong.com/ngsi-ld/v1/pmEnergyConsumption",
     "variableSpeedDriveControl": "https://uri.surbanajurong.com/ngsi-ld/v1/variableSpeedDriveControl",
