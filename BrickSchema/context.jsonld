@@ -252,6 +252,7 @@
     "totalAirflow": "https://uri.surbanajurong.com/ngsi-ld/v1/totalAirflow",
     "chilledWaterReturnTemperature": "https://uri.surbanajurong.com/ngsi-ld/v1/chilledWaterReturnTemperature",
     "chilledWaterSupplyTemperature": "https://uri.surbanajurong.com/ngsi-ld/v1/chilledWaterSupplyTemperature",
+    "ammoniaSensorReading": "https://uri.surbanajurong.com/ngsi-ld/v1/ammoniaSensorReading",
     "ammoniaSensorSetpoint": "https://uri.surbanajurong.com/ngsi-ld/v1/ammoniaSensorSetpoint",
     "plantEfficiency": "https://uri.surbanajurong.com/ngsi-ld/v1/plantEfficiency",
     "buildingLoad": "https://uri.surbanajurong.com/ngsi-ld/v1/buildingLoad",
