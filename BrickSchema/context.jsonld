@@ -9,12 +9,35 @@
     "source": "https://smartdatamodels.org/source",
 
     "Equipment": "https://brickschema.org/schema/Brick#Equipment",
+    "Camera": "https://brickschema.org/schema/Brick#Camera",
+    "ElectricalEquipment": "https://brickschema.org/schema/Brick#Electrical_Equipment",
+    "Elevator": "https://brickschema.org/schema/Brick#Elevator",
+    "FireSafetyEquipment": "https://brickschema.org/schema/Brick#Fire_Safety_Equipment",
+    "Furniture": "https://brickschema.org/schema/Brick#Furniture",
+    "GasDistribution": "https://brickschema.org/schema/Brick#Gas_Distribution",
     "HVACEquipment": "https://brickschema.org/schema/Brick#HVAC_Equipment",
     "Fan": "https://brickschema.org/schema/Brick#Fan",
     "ExhaustFan": "https://brickschema.org/schema/Brick#Exhaust_Fan",
     "AirHandlingUnit": "https://brickschema.org/schema/Brick#Air_Handling_Unit",
     "PreCoolingAirUnit": "https://brickschema.org/schema/Brick#Pre-Cooling_Air_Unit",
     "Chiller": "https://brickschema.org/schema/Brick#Chiller",
+    "ICTEquipment": "https://brickschema.org/schema/Brick#ICT_Equipment",
+    "LightingEquipment": "https://brickschema.org/schema/Brick#Lighting_Equipment",
+    "Meter": "https://brickschema.org/schema/Brick#Meter",
+    "Motor": "https://brickschema.org/schema/Brick#Motor",
+    "PVPanel": "https://brickschema.org/schema/Brick#PV_Panel",
+    "Relay": "https://brickschema.org/schema/Brick#Relay",
+    "SafetyEquipment": "https://brickschema.org/schema/Brick#Safety_Equipment",
+    "SecurityEquipment": "https://brickschema.org/schema/Brick#Security_Equipment",
+    "ShadingEquipment": "https://brickschema.org/schema/Brick#Shading_Equipment",
+    "SolarThermalCollector": "https://brickschema.org/schema/Brick#Solar_Thermal_Collector",
+    "SteamDistribution": "https://brickschema.org/schema/Brick#Steam_Distribution",
+    "Tank": "https://brickschema.org/schema/Brick#Tank",
+    "Valve": "https://brickschema.org/schema/Brick#Valve",
+    "WaterDistribution": "https://brickschema.org/schema/Brick#Water_Distribution",
+    "WaterHeater": "https://brickschema.org/schema/Brick#Water_Heater",
+    "WeatherStation": "https://brickschema.org/schema/Brick#Weather_Station",
+
     "Point": "https://brickschema.org/schema/Brick#Point",
     "Sensor": "https://brickschema.org/schema/Brick#Sensor",
     "AirQualitySensor": "https://brickschema.org/schema/Brick#Air_Quality_Sensor",
@@ -115,6 +138,21 @@
       "@type": "@id"
     },
     "resolution": "https://brickschema.org/schema/Brick#resolution",
+    "hasSubMeter": {
+      "@id": "https://brickschema.org/schema/Brick#hasSubMeter",
+      "@type": "@id"
+    },
+    "isSubMeterOf": {
+      "@id": "https://brickschema.org/schema/Brick#isSubMeterOf",
+      "@type": "@id"
+    },
+    "isVirtualMeter": "https://brickschema.org/schema/Brick#isVirtualMeter",
+    "meters": {
+      "@id": "https://brickschema.org/schema/Brick#meters",
+      "@type": "@id"
+    },
+    "measuredModuleConversionEfficiency": "https://brickschema.org/schema/Brick#measuredModuleConversionEfficiency",
+    "ratedModuleConversionEfficiency": "https://brickschema.org/schema/Brick#ratedModuleConversionEfficiency",
 
     "Asset": "https://w3id.org/rec#Asset",
     "isFedBy": {
@@ -164,6 +202,9 @@
     },
     "turnoverDate": "https://w3id.org/rec#turnoverDate",
     "weight": "https://w3id.org/rec#weight",
+    "heightRUs": "https://w3id.org/rec#heightRUs",
+    "numberOfPorts": "https://w3id.org/rec#numberOfPorts",
+    "standard": "https://w3id.org/rec#standard",
 
     "a": {
       "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
