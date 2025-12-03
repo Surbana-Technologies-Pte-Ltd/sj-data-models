@@ -21,6 +21,11 @@
     "AirHandlingUnit": "https://brickschema.org/schema/Brick#Air_Handling_Unit",
     "PreCoolingAirUnit": "https://brickschema.org/schema/Brick#Pre-Cooling_Air_Unit",
     "Chiller": "https://brickschema.org/schema/Brick#Chiller",
+    "CoolingTower": "https://brickschema.org/schema/Brick#Cooling_Tower",
+    "Pump": "https://brickschema.org/schema/Brick#Pump",
+    "WaterPump": "https://brickschema.org/schema/Brick#Water_Pump",
+    "ChilledWaterPump": "https://brickschema.org/schema/Brick#Chilled_Water_Pump",
+    "CondenserWaterPump": "https://brickschema.org/schema/Brick#Condenser_Water_Pump",
     "ICTEquipment": "https://brickschema.org/schema/Brick#ICT_Equipment",
     "LightingEquipment": "https://brickschema.org/schema/Brick#Lighting_Equipment",
     "Meter": "https://brickschema.org/schema/Brick#Meter",
@@ -329,6 +334,15 @@
     "dataloggerCondenserWaterSupplyTemperature": "https://uri.surbanajurong.com/ngsi-ld/v1/dataloggerCondenserWaterSupplyTemperature",
     "dataloggerCondenserWaterReturnTemperature": "https://uri.surbanajurong.com/ngsi-ld/v1/dataloggerCondenserWaterReturnTemperature",
     "dataloggerCondenserWaterHeaderFlowRate": "https://uri.surbanajurong.com/ngsi-ld/v1/dataloggerCondenserWaterHeaderFlowRate",
-    "connectivity": "https://uri.surbanajurong.com/ngsi-ld/v1/connectivity"
+    "connectivity": "https://uri.surbanajurong.com/ngsi-ld/v1/connectivity",
+    "condenserWaterInletTemperature": "https://uri.surbanajurong.com/ngsi-ld/v1/condenserWaterInletTemperature",
+    "condenserWaterOutletTemperature": "https://uri.surbanajurong.com/ngsi-ld/v1/condenserWaterOutletTemperature",
+    "condenserWaterFlowRate": "https://uri.surbanajurong.com/ngsi-ld/v1/condenserWaterFlowRate",
+    "chilledWaterInletTemperature": "https://uri.surbanajurong.com/ngsi-ld/v1/chilledWaterInletTemperature",
+    "chilledWaterOutletTemperature": "https://uri.surbanajurong.com/ngsi-ld/v1/chilledWaterOutletTemperature",
+    "chilledWaterFlowRate": "https://uri.surbanajurong.com/ngsi-ld/v1/chilledWaterFlowRate",
+    "power": "https://uri.surbanajurong.com/ngsi-ld/v1/power",
+    "inletTemperature": "https://uri.surbanajurong.com/ngsi-ld/v1/inletTemperature",
+    "outletTemperature": "https://uri.surbanajurong.com/ngsi-ld/v1/outletTemperature"
   }
 }
