@@ -277,6 +277,7 @@
 
     "ChillerGreenmark": "https://uri.surbanajurong.com/ngsi-ld/v1/ChillerGreenmark",
     "ChillerHeader": "https://uri.surbanajurong.com/ngsi-ld/v1/ChillerHeader",
+    "SmartCircuit": "https://uri.surbanajurong.com/ngsi-ld/v1/SmartCircuit",
     "pmPowerConsumption": "https://uri.surbanajurong.com/ngsi-ld/v1/pmPowerConsumption",
     "pmEnergyConsumption": "https://uri.surbanajurong.com/ngsi-ld/v1/pmEnergyConsumption",
     "variableSpeedDriveControl": "https://uri.surbanajurong.com/ngsi-ld/v1/variableSpeedDriveControl",
@@ -343,6 +344,12 @@
     "chilledWaterFlowRate": "https://uri.surbanajurong.com/ngsi-ld/v1/chilledWaterFlowRate",
     "power": "https://uri.surbanajurong.com/ngsi-ld/v1/power",
     "inletTemperature": "https://uri.surbanajurong.com/ngsi-ld/v1/inletTemperature",
-    "outletTemperature": "https://uri.surbanajurong.com/ngsi-ld/v1/outletTemperature"
+    "outletTemperature": "https://uri.surbanajurong.com/ngsi-ld/v1/outletTemperature",
+    "activeEnergy": "https://uri.surbanajurong.com/ngsi-ld/v1/activeEnergy",
+    "reactiveEnergy": "https://uri.surbanajurong.com/ngsi-ld/v1/reactiveEnergy",
+    "apparentEnergy": "https://uri.surbanajurong.com/ngsi-ld/v1/apparentEnergy",
+    "activePower": "https://uri.surbanajurong.com/ngsi-ld/v1/activePower",
+    "reactivePower": "https://uri.surbanajurong.com/ngsi-ld/v1/reactivePower",
+    "apparentPower": "https://uri.surbanajurong.com/ngsi-ld/v1/apparentPower"
   }
 }
